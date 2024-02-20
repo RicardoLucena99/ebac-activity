@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+<body>
+  <h1>Tipos de formularios</h1>
+  <form>
+    <!-- Ao setar o for do label como nome, consigo passar por props uma acao, nesse caso ao clicar no label ele ja permite a escrita no input -->
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" placeholder="Digite seu nome"/>
+    <br/>
+    <label for="Telefone">Telefone</label>
+    <input type="tel" id="Telefone" placeholder="Digite seu Telefone"/>
+    <br/>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Digite seu email"/>
+    <br/>
+    <label>Data</label>
+    <input type="date">   
+    <br/>
+    <label>Numero</label>
+    <input type="number" max="10" min="4" step="3">
+    <input id="option" type="checkbox"/><label for="option">Opcao correta</label>
+
+    
+
+  </form>
+  
+</body>
+</html>
