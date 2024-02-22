@@ -1,3 +1,15 @@
 h1 {
   color: green
 }
+/* #sports serve para adicionar cores a um unico id */
+#sports h2 {
+  color: red
+}
+/* serve para ser utilizado entre sessoes para editar coisas especificas */
+.date_time {
+  color: gray
+}
+/* serve para editar tudo que aparece na tela menos o que ja foi passando alguma configuracao de estilo */
+*{
+  color: blue;
+}
