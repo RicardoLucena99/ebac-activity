@@ -11,5 +11,7 @@ h1 {
 }
 /* serve para editar tudo que aparece na tela menos o que ja foi passando alguma configuracao de estilo */
 *{
-  color: blue;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
 }
