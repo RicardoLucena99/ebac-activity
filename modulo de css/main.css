@@ -4,8 +4,21 @@
   padding: 0;
   margin: 0
 }
+body > header {
+  background-color: black;
+  padding: 16px 0;
+  color: white;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 header li {
   display: inline;
+}
+header li a {
+  color: white;
 }
 .container {
   width: 1366px;
@@ -22,6 +35,45 @@ header li {
 .articles article {
   width: 30%;
 }
+section {
+  padding: 16px 0;
+}
+section h2,
+.articles article {
+  margin-bottom: 16px;
+}
+section h2 {
+  font-size: 32px;
+}
+.articles article h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+.articles article a {
+  background-color: blue;
+  color: black;
+  display: inline-block;
+  padding: 8px;
+  font-weight: bolder;
+  margin-top: 8px;
+}
+.articles article p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#sports {
+  background-color: rgb(141, 238, 141);
+}
+#sports .articles article a {
+  background-color: rgb(122, 179, 122);
+}
+#economy {
+  background-color: rgb(231, 231, 163);
+}
+#economy .articles article a {
+  background-color: rgb(226, 226, 66);
+}
+
 /* h1 {
   color: green
 } */
